@@ -24,28 +24,31 @@ for item in items:
     print(item["item_id"], item["tier_label"])
 ```
 
-## Dataset Statistics (v0.1.0-draft)
+## Dataset Statistics (v0.2.0-draft)
 
 | Case | Case ID | Operation Type | Items | Tiers Covered |
 |------|---------|----------------|-------|---------------|
 | Prague, Oklahoma, 2011 | PRAGUE | wastewater_disposal | 4 | 1–4 |
-| Pohang, South Korea, 2017 | POHANG | geothermal | 3 | 1–3 |
-| Raton Basin, Colorado, 2001–2011 | RATON | wastewater_disposal | 2 | 1–2 |
-| Groningen, Netherlands | GRONING | reservoir_impoundment | 1 | 1 |
-| **Total** | | | **10** | |
-
-## Evidence Component Distribution
-
-| Evidence Component | # Items |
-|-------------------|---------|
-| spatial_proximity | 10 |
-| temporal_correlation | 10 |
-| background_seismicity_absence | 3 |
-| b_value_shift | 5 |
-| seismicity_rate_change | 2 |
-| depth_correlation | 4 |
-| focal_mechanism | 4 |
-| pressure_diffusion_model | 1 |
+| Pohang, South Korea, 2017 | POHANG | geothermal | 4 | 1–4 |
+| Raton Basin, Colorado, 2001–2011 | RATON | wastewater_disposal | 4 | 1–4 |
+| Groningen, Netherlands | GRONING | reservoir_impoundment | 4 | 1–4 |
+| Pawnee, Oklahoma, 2016 | PAWNEE | wastewater_disposal | 4 | 1–4 |
+| Guy-Greenbrier, Arkansas, 2010–2011 | GUYGRB | wastewater_disposal | 3 | 1–3 |
+| Youngstown, Ohio, 2011–2012 | YTOWN | wastewater_disposal | 4 | 1–4 |
+| Basel, Switzerland, 2006 | BASEL | geothermal | 4 | 1–4 |
+| Preese Hall, Lancashire, UK, 2011 | PREESE | hydraulic_fracturing | 3 | 1–3 |
+| Paradox Valley, Colorado | PARADOX | wastewater_disposal | 4 | 1–4 |
+| The Geysers, California | GEYSERS | geothermal | 4 | 1–4 |
+| Koyna, India | KOYNA | reservoir_impoundment | 3 | 1–3 |
+| Fox Creek, Alberta, Canada | FOXCRK | hydraulic_fracturing | 3 | 1–3 |
+| Castor, Spain, 2013 | CASTOR | reservoir_impoundment | 3 | 1–3 |
+| Dallas-Fort Worth, Texas, 2008–2009 | DFW | wastewater_disposal | 3 | 1–3 |
+| Azle, Texas, 2013–2014 | AZLE | wastewater_disposal | 3 | 1–3 |
+| Cushing, Oklahoma, 2016 | CUSHING | wastewater_disposal | 3 | 1–3 |
+| Poland Township, Ohio | POLNDTWP | hydraulic_fracturing | 2 | 1–2 |
+| Landau, Germany | LANDAU | geothermal | 3 | 1–3 |
+| Preston New Road, Lancashire, UK, 2018–2019 | PRSNRD | hydraulic_fracturing | 3 | 1–3 |
+| **Total** | | | **68** | |
 
 ## Schema Validation
 
